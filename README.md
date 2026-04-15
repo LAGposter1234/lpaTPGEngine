@@ -2,6 +2,9 @@
 
 # CHANGELOGS
 
+## 1.0.2
+Poor examplemc, its outgrown the engine, and became its own thing.
+
 ## v1.0.1
 I changed alot about examplemc.cpp and added tilesets and tilegrids
 
