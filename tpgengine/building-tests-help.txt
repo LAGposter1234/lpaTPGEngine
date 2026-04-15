@@ -1,0 +1,12 @@
+To build the tests, or any program using this, you use this
+g++ <cpp> -lSDL2 -lSDL2_image -lSDL2_ttf -o <out>
+
+To build the ACTUAL test programs inclded, here are the commands
+
+exampletest.cpp - A 3d scene including Suzanne, a low poly model used for testing 3d scenes.
+g++ exampletest.cpp -lSDL2 -lSDL2_image -lSDL2_ttf -o test
+
+examplemc.cpp - Grown so much, its out-grown the engine! sadly not living at mamas house.
+
+example2d.cpp - A 2d scene showing how this engine can be used to make TPG games.
+g++ example2d.cpp -lSDL2 -lSDL2_image -lSDL2_ttf -o test2d
